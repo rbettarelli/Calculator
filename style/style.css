@@ -13,11 +13,11 @@ body {
   align-items: center;
   justify-content: center;
   padding: 3em;
-  
+
 }
 
 
-.main{
+.main {
   min-height: 100%;
   width: 100%;
   display: flex;
@@ -25,7 +25,7 @@ body {
   align-items: center;
 }
 
-.calcContainer{
+.calcContainer {
 
   display: flex;
   align-items: center;
@@ -34,27 +34,37 @@ body {
   width: 400px;
   padding: .5em;
   background-color: #c4c4c4;
-  
+
 }
 
 .output {
+  grid-column: 1 / -1;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 30px;
-  padding: 15px;
+  padding: 10px;
   flex-direction: column;
-  align-items: flex-end;
   width: 380px;
   height: 120px;
-  background-color: white;
+  word-wrap: break-word;
+  word-break: break-all;
+  border: solid black;
+  
 }
 
-.previous-operand{
-  font-size: 18px;
+
+.previous-operand {
+  font-size: 1.5rem;
+
+
 
 }
+
 .current-operand {
-  font-size: 40px;
+  font-size: 2.5em;
+ 
+  
 }
 
 .btnRow {
@@ -72,13 +82,15 @@ body {
 
 button {
   font-size: 30px;
- 
-  
-  
+
+
+
 }
-.btnRow > *:hover {
+
+.btnRow>*:hover {
   background-color: #555555;
 }
+
 .equalOperator {
   grid-column: span 2;
 
@@ -98,6 +110,7 @@ footer {
   text-decoration: none;
 
 }
+
 .fa-github {
 
   font-size: 24px;
@@ -107,6 +120,3 @@ footer {
 .fa-github:hover {
   transform: rotate(360deg) scale(1.2);
 }
-
-
- 
