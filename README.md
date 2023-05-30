@@ -1,5 +1,7 @@
 # Calculator
 
+![Calculator Screenshot](calculator.png)
+
 This is a calculator application developed using HTML, CSS, and JavaScript. The application is based on basic concepts for creating a web calculator.
 
 ## Features
